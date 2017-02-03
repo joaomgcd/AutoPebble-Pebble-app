@@ -1,0 +1,33 @@
+{
+    "author": "joaomgcd",
+    "dependencies": {},
+    "keywords": [],
+    "name": "autoapp",
+    "pebble": {
+        "displayName": "AutoApp For Pebble",
+        "enableMultiJS": false,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/autopebble_pebble.png",
+                    "menuIcon": true,
+                    "name": "AUTOPEBBLE_ICON",
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "1b2d45a5-c00a-4f89-b567-4cf4d2d78b2f",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.11.0"
+}
